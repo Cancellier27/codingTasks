@@ -1,0 +1,23 @@
+.iconBig {
+  height: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+.iconBigger {
+  height: 65px;
+  margin: 0;
+  padding: 0;
+}
+
+.iconSmall {
+  height: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.iconStandard {
+  height: 20px;
+  margin: 0;
+  padding: 0;
+}

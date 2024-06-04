@@ -1,0 +1,7 @@
+.App {
+  text-align: center;
+  background-color: var(--body-background-color);
+  min-height: 100vh;
+  min-width: 1250px;
+  color: white;
+}

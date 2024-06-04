@@ -1,0 +1,78 @@
+.asideBarContainer {
+  position: absolute;
+  left: -320px;
+  top: -60px;
+
+  width: 296px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.asideUserImage {
+  height: 296px;
+  z-index: 11;
+}
+
+.asideFollowBtn {
+  width: 100%;
+}
+
+.asideFollowContainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 3px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.asideLocationContainer {
+  margin-bottom: 5px;
+  padding-left: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.asideLinkedinContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(54, 54, 54);
+}
+
+.asideLinkedinLink {
+  text-decoration: none;
+  color: #fff;
+  text-align: left;
+  margin-left: 12px;
+}
+
+.asideLinkedinLink:hover {
+  text-decoration: underline;
+  color: rgb(56, 56, 255);
+}
+
+.asideFeedbackContainer p {
+  color: green;
+  border: 1px solid green;
+  border-radius: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-right: 5px;
+}
+
+.asideFeedbackContainer a,
+.asideBarContainer a {
+  text-decoration: none;
+}
+
+ 

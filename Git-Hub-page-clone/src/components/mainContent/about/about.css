@@ -1,0 +1,13 @@
+.aboutMainContainer {
+  position: relative;
+
+  width: 900px;
+  margin-left: 330px;
+  margin-bottom: 20px;
+  border: 1px var(--border-divider-color) solid;
+  border-radius: 5px;
+
+  padding: 20px;
+
+  text-align: left;
+}

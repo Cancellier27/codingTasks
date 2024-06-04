@@ -1,0 +1,15 @@
+.PopularRepositoriesMainContainer {
+  width: 900px;
+  margin-left: 330px;
+  margin-top: 28px;
+  
+  text-align: left;
+
+  position: relative;
+}
+
+.popRepoTitle {
+  position: absolute;
+  top: -31px;
+  left: 0px;
+}

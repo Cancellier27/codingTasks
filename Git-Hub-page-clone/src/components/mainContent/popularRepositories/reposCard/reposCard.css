@@ -1,0 +1,47 @@
+.repoCardContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 440px;
+  height: 100px;
+
+  border: 1px var(--border-divider-color) solid;
+  border-radius: 5px;
+
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.repoCardContainer p {
+  margin: 0;
+}
+
+.repoCardLanguage {
+  font-size: small;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.JavaScript {
+  background-color: rgb(234, 250, 9);
+}
+.TypeScript {
+  background-color: rgb(62, 62, 226);
+}
+.HTML {
+  background-color: rgb(133, 18, 18);
+}
+
+.repoCardPrivacy {
+  border: 1px solid var(--border-divider-color);
+  border-radius: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-right: 5px;
+  font-size: small;
+}
