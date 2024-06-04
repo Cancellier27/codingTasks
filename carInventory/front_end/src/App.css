@@ -1,0 +1,94 @@
+.App * {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.menu-btn-container {
+  width: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.menu-btn {
+margin-right: 10px;
+}
+
+.app-container {
+  width: 750px;
+}
+
+.cars-list-outer-container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.car-list-inner-container {
+  width: 100%;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: lightyellow  ;
+  border: 1px gray solid;
+  border-radius: 10px;
+
+  margin-top: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.car-list-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.owner-info,
+.car-info {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.car-make,
+.car-owner {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+
+.car-model,
+.car-registration {
+  margin-right: 20px;
+}
+
+.delete-btn,
+.edit-btn {
+  margin-right: 10px;
+}
+
+.update-selected-btn,
+.delete-selected-btn{
+  margin-top: 10px;
+  margin-left: 10px;
+}

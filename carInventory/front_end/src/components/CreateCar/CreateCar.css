@@ -1,0 +1,40 @@
+.create-car-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+
+  z-index: 10;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-title {
+  margin-bottom: 10px;
+  margin-right: 220px;
+}
+
+.create-form-container {
+  width: 400px;
+}
+
+.title-container{
+  width: 400px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+
+.form-input {
+margin-bottom: 10px;
+}
+
+.form-btn {
+
+}
