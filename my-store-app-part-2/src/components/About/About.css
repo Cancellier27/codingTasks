@@ -1,0 +1,16 @@
+.about-container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  height: calc(100vh - 80px);
+}
+
+
+.store-contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
