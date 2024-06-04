@@ -9,8 +9,9 @@ app.use(cors())
 app.use(express.json())
 
 // MongoDB connection
+// Change the uri with your own database and add your password at <password>
 const uri =
-  "mongodb+srv://filipecancelliercosta:qFlOCySUoz2KPzPH@bootcampfilipecluster.gpizgfk.mongodb.net/?retryWrites=true&w=majority&appName=BootcampFilipeCluster"
+  "mongodb+srv://filipecancelliercosta:<password>@bootcampfilipecluster.gpizgfk.mongodb.net/?retryWrites=true&w=majority&appName=BootcampFilipeCluster"
 
 const clientOptions = {
   serverApi: {version: "1", strict: true, deprecationErrors: true}
